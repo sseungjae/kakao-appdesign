@@ -1,0 +1,8 @@
+.nav {
+  background-color: red;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
