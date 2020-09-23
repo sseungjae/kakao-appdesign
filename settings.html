@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More - Kokoa Clone</title>
@@ -13,7 +13,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>17:43</span>
       </div>
       <div class="status-bar__column">
         <span>90%</span>
@@ -22,16 +22,34 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
-      <div class="screen-header__icons">
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <i class="fas fa-angle-left fa-3x"></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen">
+      <ul class="settings-list">
+        <li class="setting__setting">
+          <i class="fas fa-bullhorn"></i>
+          <span>Notices</span>
+        </li>
+        <li class="settings__setting">
+          <i class="fas fa-flask"></i>
+          <span>KaKao Lab</span>
+        </li>
+        <li class="settings__setting">
+          <i class="fas fa-info-circle"></i>
+          <span>Version</span>
+        </li>
+      </ul>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
