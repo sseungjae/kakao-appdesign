@@ -116,7 +116,7 @@
 }
 
 .reply input {
-  padding: 14px;
+  padding: 12px;
   width: 100%;
   border: var(--main-border);
   border-radius: 25px;
@@ -126,7 +126,7 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 3px;
+  right: 1px;
   top: 3px;
 }
 
