@@ -9,3 +9,19 @@
   color: white;
   font-weight: 600;
 }
+
+.splash-screen .fas fa-comment {
+  position: relative;
+  z-index: 1;
+}
+
+.splash-screen_comment {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  font-weight: 700;
+}
